@@ -10,6 +10,17 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 2px #e8eddf;
 }
 
+button {
+    background: #e8eddf;
+    font-family: 'Happy Monkey', bold;
+    border: 6px solid #e8eddf;
+    padding: 2px 5px;
+}
+
+button:hover {
+    background: #ffee9d;
+}
+
 #bff-img {
     width: 150px;
     border-radius: 50%;
@@ -51,20 +62,3 @@ h1, h2, h3, h4, p {
     background-image: url("images/gift-img.jpg");
     background-size: cover;
 }
-
-#gift-img-happy:hover {
-    background-image: url("images/happy.gif");
-}
-
-#gift-img-cool:hover {
-    background-image: url("images/cool.gif");
-}
-
-#gift-img-handsome:hover {
-    background-image: url("images/handsome.gif");
-}
-
-#gift-img-cheers:hover {
-    background-image: url("images/woo-hoo.gif");
-}
-
